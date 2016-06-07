@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.myappportfolio.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/appName"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="50dp"
+        android:textSize="20sp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        android:id="@+id/textView"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonPopMovies"
+        android:layout_marginTop="80dp"
+        android:text="Popular Movies"
+        android:layout_alignRight="@+id/buttonMakeMaterial"
+        android:layout_alignEnd="@+id/buttonMakeMaterial"
+        android:layout_alignLeft="@+id/buttonMakeMaterial"
+        android:layout_alignStart="@+id/buttonMakeMaterial"
+        android:textColor="@color/colorButtonTextPrimary"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonStockHawk"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/buttonPopMovies"
+        android:text="Stock Hawk"
+        android:layout_alignRight="@+id/buttonMakeMaterial"
+        android:layout_alignEnd="@+id/buttonMakeMaterial"
+        android:layout_alignLeft="@+id/buttonMakeMaterial"
+        android:layout_alignStart="@+id/buttonMakeMaterial"
+        android:textColor="@color/colorButtonTextPrimary"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonBuildBigger"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/buttonStockHawk"
+        android:text="Build It Bigger"
+        android:layout_alignRight="@+id/buttonMakeMaterial"
+        android:layout_alignEnd="@+id/buttonMakeMaterial"
+        android:layout_alignLeft="@+id/buttonMakeMaterial"
+        android:layout_alignStart="@+id/buttonMakeMaterial"
+        android:textColor="@color/colorButtonTextPrimary"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonMakeMaterial"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/buttonBuildBigger"
+        android:text="Make Your App Material"
+        android:textColor="@color/colorButtonTextPrimary"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonGoUbi"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/buttonMakeMaterial"
+        android:text="Go Ubiquitous"
+        android:layout_alignRight="@+id/buttonMakeMaterial"
+        android:layout_alignEnd="@+id/buttonMakeMaterial"
+        android:layout_alignLeft="@+id/buttonMakeMaterial"
+        android:layout_alignStart="@+id/buttonMakeMaterial"
+        android:textColor="@color/colorButtonTextPrimary"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonCapstone"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/buttonGoUbi"
+        android:text="Capstone"
+        android:layout_alignRight="@+id/buttonMakeMaterial"
+        android:layout_alignEnd="@+id/buttonMakeMaterial"
+        android:layout_alignLeft="@+id/buttonMakeMaterial"
+        android:layout_alignStart="@+id/buttonMakeMaterial"
+        android:textColor="@color/colorButtonTextPrimary"/>
+</RelativeLayout>
